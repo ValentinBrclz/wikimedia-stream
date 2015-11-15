@@ -17,8 +17,12 @@
   "engines": {
     "node": ">=0.6"
   },
-  "devDependencies": {
+  "dependencies": {
     "irc": "^0.4.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.8.0",
+    "vows": "^0.8.1"
   },
   "keywords": [
     "wikimedia",
@@ -28,7 +32,8 @@
     "wikipedia"
   ],
   "scripts": {
-    "jshint": "jshint lib/wikimedia-stream.js"
+    "jshint": "jshint lib/wikimedia-stream.js examples/ test/",
+    "test": "vows --spec"
   },
   "jshintConfig": {
     "node": true,
