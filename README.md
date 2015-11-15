@@ -1,5 +1,8 @@
-# wikimedia-stream
+wikimedia-stream
+======
 Stream contributions and actions of any Wikimedia's project that has an IRC channel with Node.js
+
+[![Build Status](https://api.travis-ci.org/ValentinBrclz/wikimedia-stream.png)](http://travis-ci.org/ValentinBrclz/wikimedia-stream)
 
 ## Installation
 ``` bash
@@ -12,5 +15,5 @@ Or [download the latest stable version](https://github.com/ValentinBrclz/wikimed
 _(comming soon)_
 
 ## Licensing
-* License: Gnu General Public Licence
+* License: GNU General Public Licence
 * Author: [Valentin Berclaz](https://github.com/ValentinBrclz)
