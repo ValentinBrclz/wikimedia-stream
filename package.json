@@ -6,12 +6,32 @@
     "url": "http://www.valentinberclaz.com/"
   },
   "main": "lib/wikimedia-stream.js",
-  "description": "Stream of any Wikimedia's project via IRC and Node.js",
+  "description": "Stream contributions and actions of any Wikimedia's project that has an IRC channel with Node.js",
   "homepage": "https://github.com/ValentinBrclz/wikimedia-stream",
   "bugs": "https://github.com/ValentinBrclz/wikimedia-stream/issues",
   "repository": {
     "type": "git",
     "url": "https://github.com/ValentinBrclz/wikimedia-stream.git"
   },
-  "license": "SEE LICENSE IN LICENSE FILE IN ROOT DIRECTORY"
+  "license": "SEE LICENSE IN LICENSE FILE IN ROOT DIRECTORY",
+  "engines": {
+    "node": ">=0.6"
+  },
+  "devDependencies": {
+    "irc": "^0.4.0"
+  },
+  "keywords": [
+    "wikimedia",
+    "wiki",
+    "stream",
+    "nodejs",
+    "wikipedia"
+  ],
+  "scripts": {
+    "jshint": "jshint lib/wikimedia-stream.js"
+  },
+  "jshintConfig": {
+    "node": true,
+    "strict": true
+  }
 }
