@@ -17,6 +17,8 @@ Or [download the latest stable version](https://github.com/ValentinBrclz/wikimed
 ## Usage
 _(comming soon)_
 
+See [examples/](https://github.com/ValentinBrclz/wikimedia-stream/blob/master/examples/) for basic examples
+
 ## Licensing
 * License: GNU General Public Licence
 * Author: [Valentin Berclaz](https://github.com/ValentinBrclz)
