@@ -23,5 +23,5 @@ _(comming soon)_
 See [examples/](https://github.com/ValentinBrclz/wikimedia-stream/blob/master/examples/) for basic examples
 
 ## Licensing
-* License: GNU General Public Licence
+* License: GNU General Public Licence (2.0)
 * Author: [Valentin Berclaz](https://github.com/ValentinBrclz)
