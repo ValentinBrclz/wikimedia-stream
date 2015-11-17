@@ -18,7 +18,7 @@ Stream contributions and actions of any Wikimedia's project that has an IRC chan
 Or [download the latest stable version](https://github.com/ValentinBrclz/wikimedia-stream/releases) on GitHub.
 
 ## Usage
-_(comming soon)_
+_(coming soon)_
 
 See [examples/](https://github.com/ValentinBrclz/wikimedia-stream/blob/master/examples/) for basic examples
 
