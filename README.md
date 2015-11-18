@@ -18,9 +18,27 @@ Stream contributions and actions of any Wikimedia's project that has an IRC chan
 Or [download the latest stable version](https://github.com/ValentinBrclz/wikimedia-stream/releases) on GitHub.
 
 ## Usage
-_(coming soon)_
 
-See [examples/](https://github.com/ValentinBrclz/wikimedia-stream/blob/master/examples/) for basic examples
+Basic example:
+```javascript
+'use strict';
+
+var WikimediaStream = require('../lib/wikimedia-stream');
+
+var ws = new WikimediaStream();
+
+try {
+	ws.on("data", function (data) {
+	  // Do something with the data
+	  // data contains project, page, flags, url, user, size, comment
+	});
+}
+catch(err)
+{
+	console.log(err);
+}
+```
+See [examples/](https://github.com/ValentinBrclz/wikimedia-stream/blob/master/examples/) for more examples
 
 ## Licensing
 * License: GNU General Public Licence (2.0)
