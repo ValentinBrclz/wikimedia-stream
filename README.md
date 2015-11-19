@@ -29,8 +29,7 @@ var ws = new WikimediaStream();
 
 try {
 	ws.on("data", function (data) {
-	  // Do something with the data
-	  // data contains project, page, flags, url, user, size, comment
+	  // Do something with the returned data
 	});
 }
 catch(err)
@@ -40,16 +39,23 @@ catch(err)
 ```
 See [examples/](https://github.com/ValentinBrclz/wikimedia-stream/blob/master/examples/) for more examples
 
-### The "data" object
+### The returned object
 ```javascript
 var data = {
-	project: "en.wikipedia", // Project, usually the subdomain without .org
-	page: "Wikipedia:Main Page", // Title of the page, with namespace
-	flags: "m", // Flags of the edit (m = minor, N = new page, B = Bot, ...)
-	url: "https://en.wikipedia.org/w/index.php?title=Main_Page&diff=664887982&oldid=664887812", // Diff or url with oldid of the action
-	user: "SlimVirgin", // Username of the performer of the action
-	size: "-32", // Size modification
-	comment: "Reverted edits by [[User:SlimVirgin|SlimVirgin]]...", // Summary or comment about the action
+	// Project, usually the subdomain without .org
+	project: "en.wikipedia",
+	// Title of the page, with namespace
+	page: "Wikipedia:Main Page",
+	// Flags of the edit (M = minor, N = new page, B = Bot, ...)
+	flags: "M",
+	// Diff or url with oldid of the action
+	url: "https://en.wikipedia.org/w/index.php?title=Main_Page&diff=664887982&oldid=664887812",
+	// Username of the performer of the action
+	user: "SlimVirgin",
+	// Size modification
+	size: "-32",
+	// Summary or comment about the action
+	comment: "Reverted edits by [[User:SlimVirgin|SlimVirgin]]...",
 }
 ```
 
