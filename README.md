@@ -40,6 +40,19 @@ catch(err)
 ```
 See [examples/](https://github.com/ValentinBrclz/wikimedia-stream/blob/master/examples/) for more examples
 
+### The "data" object
+```javascript
+var data = {
+	project: "en.wikipedia", // Project, usually the subdomain without .org
+	page: "Wikipedia:Main Page", // Title of the page, with namespace
+	flags: "m", // Flags of the edit (m = minor, N = new page, B = Bot, ...)
+	url: "https://en.wikipedia.org/w/index.php?title=Main_Page&diff=664887982&oldid=664887812", // Diff or url with oldid of the action
+	user: "SlimVirgin", // Username of the performer of the action
+	size: "-32", // Size modification
+	comment: "Reverted edits by [[User:SlimVirgin|SlimVirgin]]...", // Summary or comment about the action
+}
+```
+
 ## Licensing
 * License: GNU General Public Licence (2.0)
 * Author: [Valentin Berclaz](https://github.com/ValentinBrclz)
