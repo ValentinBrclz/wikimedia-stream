@@ -62,3 +62,4 @@ var data = {
 ## Licensing
 * License: GNU General Public Licence (2.0)
 * Author: [Valentin Berclaz](https://github.com/ValentinBrclz)
+* Inspired by [wikipedia-stream](https://github.com/arscan/wikipedia-stream)
