@@ -22,7 +22,7 @@
 
 var WikimediaStream = require('../lib/wikimedia-stream');
 
-var ws = new WikimediaStream();
+var ws = new WikimediaStream({});
 
 try {
 	ws.on("data", function (data) {
