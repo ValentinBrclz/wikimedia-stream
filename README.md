@@ -6,7 +6,7 @@ Stream contributions and actions of any Wikimedia's project that has an IRC chan
 [![Build Status](https://api.travis-ci.org/ValentinBrclz/wikimedia-stream.png)](http://travis-ci.org/ValentinBrclz/wikimedia-stream)
 [![Dependency Status](https://img.shields.io/david/ValentinBrclz/wikimedia-stream.svg?style=flat)](https://david-dm.org/ValentinBrclz/wikimedia-stream#info=Dependencies)
 [![devDependency Status](https://img.shields.io/david/dev/ValentinBrclz/wikimedia-stream.svg?style=flat)](https://david-dm.org/ValentinBrclz/wikimedia-stream#info=devDependencies)
-[![License](https://img.shields.io/badge/license-GPLv2-blue.svg?style=flat)](http://opensource.org/licenses/GPL-2.0)
+[![License](https://img.shields.io/badge/license-GPLv3-blue.svg?style=flat)](http://opensource.org/licenses/GPL-3.0)
 
 [![NPM](https://nodei.co/npm/wikimedia-stream.png?downloads=true&downloadRank=true)](https://nodei.co/npm/wikimedia-stream/)
 
@@ -60,6 +60,6 @@ var data = {
 ```
 
 ## Licensing
-* License: GNU General Public Licence (2.0)
+* License: GNU General Public Licence (3.0)
 * Author: [Valentin Berclaz](https://github.com/ValentinBrclz)
 * Inspired by [wikipedia-stream](https://github.com/arscan/wikipedia-stream)
